@@ -60,7 +60,6 @@ def is_all_guessed(secret_word, old_letters_guessed):
 
 
 def main():
-    # python.exe .\guess_the_word_ex.py --player asdasd --player asdzc
     parser = argparse.ArgumentParser(description="Guess The Word Game.")
     parser.add_argument('--player', type=str, action='append', help='Name of the player')
     args = parser.parse_args()
